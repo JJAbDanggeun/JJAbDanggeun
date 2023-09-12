@@ -1,0 +1,2 @@
+원래 main.tsx에서 맨 바깥쪽에서 싸져야 하는 온갖 Provider 들을 컴포넌트 단위로 관리하기 위한 장소입니다. 
+예를 들어, Redux의 store Provider 이나 구글 oauth 사용시 감싸야하는 Provider 들을 작성해주면 됩니다. 
