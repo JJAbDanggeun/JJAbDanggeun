@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import LondrinaBlack from "./fonts/Londrina_Solid/LondrinaSolid-Black.ttf";
 import LondrinaRegular from "./fonts/Londrina_Solid/LondrinaSolid-Regular.ttf";
+import LondrinaLight from "./fonts/Londrina_Solid/LondrinaSolid-Light.ttf";
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -14,5 +15,11 @@ export const GlobalStyle = createGlobalStyle`
     src: local('LondrinaRegular'), local('LondrinaRegular');
     font-style: normal;
     src: url(${LondrinaRegular}) format('truetype');
+  }
+  @font-face {
+    font-family: "LondrinaLight";
+    src: local('LondrinaLight'), local('LondrinaLight');
+    font-style: normal;
+    src: url(${LondrinaLight}) format('truetype');
   }
 `;
